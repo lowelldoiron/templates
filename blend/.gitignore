@@ -6,16 +6,17 @@
 
 
 # Ignore everything in the config directory
+
 config/*
 
+config/bforartists/4.2/config/startup.blend
+config/bforartists/4.2/config/userpref.blend
 # !config/bforartists/
 # config/bforartists/*
 # !config/bforartists/4.2
 # config/bforartists/4.2/*
 # !config/bforartists/4.2/config/
 # config/bforartists/4.2/config/*
-!config/bforartists/4.2/config/startup.blend
-!config/bforartists/4.2/config/userpref.blend
 
 # config/Code/
 # !config/Code/
