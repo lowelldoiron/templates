@@ -1,5 +1,5 @@
 config/*
 
 # !config/bforartists/4.2/config/userpref.blend
-!config/bforartists/4.2/config
+config/bforartists/4.2/config/
 !config/Code/User/settings.json
