@@ -1,7 +1,7 @@
 {
   description = "Ready-made templates for easily creating flake-driven environments";
 
-  outputs = {}: {
+  outputs = {self}: {
     templates = {
       go = {
         path = ./go;
