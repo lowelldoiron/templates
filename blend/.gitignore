@@ -1,0 +1,5 @@
+config/*
+myprojects/*
+
+!config/bforartists/4.2/config/userpref.blend
+!config/Code/User/settings.json
