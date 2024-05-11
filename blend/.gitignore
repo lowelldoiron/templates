@@ -25,16 +25,6 @@ config/bforartists/4.2/config/*
 !config/bforartists/4.2/config/userpref.blend
 
 
-# config/bforartists/4.2/config/startup.blend
-# config/bforartists/4.2/config/userpref.blend
-# !config/bforartists/
-# config/bforartists/*
-# !config/bforartists/4.2
-# config/bforartists/4.2/*
-# !config/bforartists/4.2/config/
-# config/bforartists/4.2/config/*
-
-# config/Code/
-# !config/Code/
-# config/Code/User/*
+!config/Code/
+config/Code/User/*
 !config/Code/User/settings.json

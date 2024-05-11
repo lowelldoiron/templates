@@ -19,6 +19,9 @@
       dist = import ./dist {inherit pkgs;};
 
       initScript = pkgs.writeScript "run.sh" ''
+        # echo populate .gitignore
+        echo -e "\ndist/*\nflake.*\nconfig/*" > .gitignore
+
         # echo Reinstalling blender plugins ...
 
         ${builtins.foldl' (a: b: a + b.ri) "" dist.plugins}
