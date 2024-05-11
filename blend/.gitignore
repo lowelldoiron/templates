@@ -4,8 +4,11 @@
 # config/bforartists/4.2/config/*
 # !config/Code/User/settings.json
 
+untitled.blend1
 
-# Ignore everything in the config directory
+flake.lock
+
+tts_audio/*
 
 config/*
 
