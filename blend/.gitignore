@@ -22,6 +22,7 @@ config/bforartists/4.2/*
 config/bforartists/4.2/config/*
 # Re-include the startup.blend file
 !config/bforartists/4.2/config/startup.blend
+!config/bforartists/4.2/config/userpref.blend
 
 
 # config/bforartists/4.2/config/startup.blend
