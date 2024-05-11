@@ -20,7 +20,7 @@
 
       initScript = pkgs.writeScript "run.sh" ''
         # echo populate .gitignore
-        # echo -e "\ndist/*\nflake.*\nconfig/*" > .gitignore
+        echo -e "\ndist/*\nflake.*\nconfig/*" > .gitignore
 
         # echo Reinstalling blender plugins ...
 
