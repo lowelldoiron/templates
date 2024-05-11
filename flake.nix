@@ -1,8 +1,8 @@
 {
   description = "Ready-made templates for easily creating flake-driven environments";
 
-  outputs = {self}: {
-    templates = rec {
+  outputs = {}: {
+    templates = {
       go = {
         path = ./go;
       };
@@ -20,6 +20,9 @@
       };
       zig = {
         path = ./zig;
+      };
+      blend = {
+        path = ./blend;
       };
     };
   };
