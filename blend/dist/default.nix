@@ -41,6 +41,16 @@
     # ri = runtimeInstallScript src repo;
     # }
 
+    # rec { # wayland not supported :(
+    #   repo = "ImagePaste";
+    #   owner = "b-init";
+    #   src = builtins.fetchGit {
+    #     url = "https://github.com/${owner}/${repo}";
+    #     rev = "26f1db90c0c4c1f14ebd641068645af5e15be3d0";
+    #   };
+    #   ri = runtimeInstallScript src repo;
+    # }
+
     rec {
       repo = "import_latex_as_curve";
       owner = "Reijaff";

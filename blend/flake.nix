@@ -55,6 +55,8 @@
 
             libdecor # for bforartists
 
+            # wl-clipboard-x11
+
             (python3.withPackages (p:
               with p; [
                 flask
@@ -219,8 +221,8 @@
                   {
                     name = "blender-development";
                     publisher = "JacquesLucke";
-                    version = "0.0.18";
-                    sha256 = "sha256-C/ytfJnjTHwkwHXEYah4FGKNl1IKWd2wCGFSPjlo13s=";
+                    version = "0.0.20";
+                    sha256 = "sha256-UQzTwPZyElzwtWAjbkHIsun+VEttlph4Og6A6nFxk8w=";
                   }
                 ];
             })
