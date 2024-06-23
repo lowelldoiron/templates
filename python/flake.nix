@@ -12,7 +12,7 @@
     flake-utils.lib.eachDefaultSystem (system: let
       pkgs = nixpkgs.legacyPackages.${system};
     in {
-      devShells.default = pkgs.mkShell {
+      devShells.default = pkgs.mkShellNoCC {
         buildInputs = with pkgs; [
           (python3.withPackages
             (p:
@@ -22,7 +22,7 @@
                 pwntools
               ]))
 
-          pkgs.hello
+          hello
         ];
 
         shellHook = ''
