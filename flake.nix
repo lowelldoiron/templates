@@ -24,6 +24,9 @@
       blend = {
         path = ./blend;
       };
+      rust = {
+        path = ./rust;
+      };
     };
   };
 }
