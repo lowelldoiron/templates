@@ -5,8 +5,8 @@
   # };
 
   bforartists = builtins.fetchTarball {
-    url = "https://www.bforartists.de/data/binaries/Bforartists-4.1.0-Linux.tar.xz";
-    sha256 = "1kvchpkj2kh6f0xa7j5fpsgphdzc7cdipabnrd9kz0zhxdg6xk5j";
+    url = "https://github.com/Bforartists/Bforartists/releases/download/v4.1.1/Bforartists-4.1.1-Linux.tar.xz";
+    sha256 = "18mk9xliwavc60ha897y2s65hi5cvpc6zn51hsivs9m7qalgvdqg";
   };
 
   bforartists_python = pkgs.python311.withPackages (p:
